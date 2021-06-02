@@ -1,4 +1,4 @@
-# IntelliJ Platform Plugin Template
+# WKingPluginTemplate
 
 [![official JetBrains project](https://jb.gg/badges/official.svg)][jb:confluence-on-gh]
 [![Twitter Follow](https://img.shields.io/twitter/follow/JBPlatform?style=flat)][jb:twitter]
@@ -8,7 +8,7 @@
 > **TL;DR:** Click the <kbd>Use this template</kbd> button and clone it in IntelliJ IDEA.
 
 <!-- Plugin description -->
-**IntelliJ Platform Plugin Template** is a repository that provides a pure boilerplate template to make it easier to create a new plugin project (check the [Creating a repository from a template][gh:template] article).
+**WKingPluginTemplate** is a repository that provides a pure boilerplate template to make it easier to create a new plugin project (check the [Creating a repository from a template][gh:template] article).
 
 The main goal of this template is to speed up the setup phase of plugin development for both new and experienced developers by preconfiguring the project scaffold and CI, linking to the proper documentation pages, and keeping everything organized.
 
@@ -62,7 +62,7 @@ For the last step, you have to manually review the configuration variables descr
 
 The recommended method for plugin development involves using the [Gradle][gradle] setup with the [gradle-intellij-plugin][gh:gradle-intellij-plugin] installed. The gradle-intellij-plugin makes it possible to run the IDE with your plugin and publish your plugin to the Marketplace Repository.
 
-A project built using the IntelliJ Platform Plugin Template includes a Gradle configuration that's already been set up. Feel free to read through the [Using Gradle][docs:using-gradle] articles to better understand your build and learn how to customize it.
+A project built using the WKingPluginTemplate includes a Gradle configuration that's already been set up. Feel free to read through the [Using Gradle][docs:using-gradle] articles to better understand your build and learn how to customize it.
 
 The most significant parts of the current configuration are:
 - Configuration written with [Gradle Kotlin DSL][gradle-kotlin-dsl].
@@ -93,7 +93,7 @@ For more details regarding Kotlin integration, please see: [Kotlin for Plugin De
 
 ## Plugin template structure
 
-A generated IntelliJ Platform Plugin Template repository contains the following content structure:
+A generated WKingPluginTemplate repository contains the following content structure:
 
 ```
 .

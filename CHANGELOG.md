@@ -1,6 +1,6 @@
 <!-- Keep a Changelog guide -> https://keepachangelog.com -->
 
-# IntelliJ Platform Plugin Template Changelog
+# WKingPluginTemplate Changelog
 
 ## [Unreleased]
 ## [0.10.1]
