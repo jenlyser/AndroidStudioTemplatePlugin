@@ -1,17 +1,19 @@
 package template.mvc.activity.res.layout
 
-
+/**
+ * 这是xml模板,可以自定义,参数可以修改
+ */
 fun MvcActivityXml(
     packageName: String,
     activityClass: String
 ) = """
-    <?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.common.ComparisonActivity">
+    tools:context="$packageName.$activityClass">
 
     <LinearLayout
         android:layout_width="match_parent"

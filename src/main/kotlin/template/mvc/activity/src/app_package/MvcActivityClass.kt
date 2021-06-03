@@ -1,5 +1,8 @@
 package template.mvc.activity.src.app_package
 
+/**
+ * 这是activity的class模板,模板内容自定义,参数是传入的参数,可以更改.
+ */
 fun MvcActivityClass(
     applicationPackage:String?,
     activityClass:String,
