@@ -1,5 +1,9 @@
 # WKingPluginTemplate
 
+>项目编写完成 Run/Debug 里选择 Run Plugin 会编译成jar.
+>在File->Setting->Plugins 里安装编译好的jar.
+>重启AndroidStudio,右键new->分类可以找到自己的模板(在你自己定义的模板里*Template.kt文件的category里指定分类里),如category = Category.Activity,则在new->activity-> 可以找到.
+
 [![official JetBrains project](https://jb.gg/badges/official.svg)][jb:confluence-on-gh]
 [![Twitter Follow](https://img.shields.io/twitter/follow/JBPlatform?style=flat)][jb:twitter]
 [![Build](https://github.com/JetBrains/intellij-platform-plugin-template/workflows/Build/badge.svg)][gh:build]
